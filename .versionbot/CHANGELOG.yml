@@ -1,4 +1,17 @@
 - commits:
+    - subject: 'meta: quick github action test'
+      hash: bedfbaefb07f790583b0e9fc90e32ea605c95166
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Tomás Migone <tomas@balena.io>
+        signed-off-by: Tomás Migone <tomas@balena.io>
+      author: Tomás Migone
+      nested: []
+  version: 3.6.13
+  date: 2021-12-08T18:20:29.463Z
+- commits:
     - subject: 'meta: replace balena/build CI with balena-ci GitHub action'
       hash: d2869bfe9a2455b79cdc8a0a7508a8ec4be8afa3
       body: ''
