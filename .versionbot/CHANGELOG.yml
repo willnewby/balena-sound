@@ -1,4 +1,50 @@
 - commits:
+    - subject: update
+      hash: 918b660286956d9c973cc8b0b288a40eed25dfc9
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Tomás Migone <tomas@balena.io>
+        signed-off-by: Tomás Migone <tomas@balena.io>
+      author: Tomás Migone
+      nested: []
+    - subject: Remove extra env var
+      hash: fc12640dcb36eb104883265fa810846183ee081c
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Tomás Migone <tomas@balena.io>
+        signed-off-by: Tomás Migone <tomas@balena.io>
+      author: Tomás Migone
+      nested: []
+    - subject: Fix multiroom client mode
+      hash: aa019a9f8c8f6ac732a551a2aec5d3697562185d
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Tomás Migone <tomas@balena.io>
+        signed-off-by: Tomás Migone <tomas@balena.io>
+      author: Tomás Migone
+      nested: []
+    - subject: "core: refactor to remove modes"
+      hash: a9ac706ed022a544215a592d0ba6491ee0a4404a
+      body: |
+        - Sound modes removed
+        - Devices will now start in "standalone" mode and upgrade if possible
+        - Service inter-dependency removed
+      footer:
+        Change-type: major
+        change-type: major
+        Signed-off-by: Tomás Migone <tomas@balena.io>
+        signed-off-by: Tomás Migone <tomas@balena.io>
+      author: Tomás Migone
+      nested: []
+  version: 4.0.0
+  date: 2022-04-11T19:16:46.716Z
+- commits:
     - subject: Use balenaHub proxy registry for blocks
       hash: 2325cc6f0f062c6beaf4743d5b67fbd78c5698eb
       body: ""
