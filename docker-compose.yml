@@ -65,6 +65,12 @@ services:
     volumes:
       - spotifycache:/var/cache/raspotify
 
+  healthchecks_io:
+    build: ./plugins/healthchecks_io
+    restart: on-failure
+    privileged: false
+    network_mode: host
+
   # https://github.com/balenablocks/hostname
   hostname:
     build: ./core/hostname
