@@ -4,7 +4,7 @@ if [[ -n "$HEALTHCHECKS_IO_CHECK_KEY" ]]; then
   while true
    do
      curl -m 10 --retry 5 https://hc-ping.com/${HEALTHCHECKS_IO_CHECK_KEY}
-     sleep 60
+     sleep 300
    done
 fi
 
