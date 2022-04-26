@@ -1,4 +1,4 @@
-FROM bh.cr/balenalib/%%BALENA_ARCH%%-debian:buster
+FROM balenalib/armv7hf-debian
 
 WORKDIR /usr/src
 
