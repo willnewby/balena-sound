@@ -1,4 +1,80 @@
 - commits:
+    - subject: changing balenablocks urls and flowzone CI
+      hash: ec21ca9dcd5da43fbab2559bea165b7ceeb6b1cc
+      body: ""
+      footer:
+        Signed-off-by: Flynn Joffray <flynn@balena.io>
+        signed-off-by: Flynn Joffray <flynn@balena.io>
+        Change-type: patch
+        change-type: patch
+      author: Flynn Joffray
+      nested: []
+  version: 3.9.6
+  title: ""
+  date: 2022-11-16T19:41:23.909Z
+- commits:
+    - subject: Changing references from balenalabs to balena-labs-projects
+      hash: 5439c4ed3f985bafd9d5939c930aacb90155d6c3
+      body: ""
+      footer:
+        Signed-off-by: Flynn Joffray <flynn@balena.io>
+        signed-off-by: Flynn Joffray <flynn@balena.io>
+        Change-type: patch
+        change-type: patch
+      author: Flynn Joffray
+  version: 3.9.5
+  title: ""
+  date: 2022-10-24T20:46:23.586Z
+- commits:
+    - subject: Switch from balenaCI to flowzone
+      hash: 96415ca7f1126f803dba8acc38ffca70849f68d1
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Pagan Gazzard
+  version: 3.9.4
+  title: ""
+  date: 2022-10-10T18:21:26.202Z
+- commits:
+    - subject: Update 05-audio-interfaces.md
+      hash: ff3e336cfa929557633fff6caa2af967e6a8b52f
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Ramiro Gonzalez <ramiro.gonzalez@balena.io>
+        signed-off-by: Ramiro Gonzalez <ramiro.gonzalez@balena.io>
+      author: Ramiro González Maciel
+      nested: []
+  version: 3.9.3
+  title: "'Fix links from ../docs  to ./'"
+  date: 2022-06-15T18:56:27.854Z
+- commits:
+    - subject: Deleting remainder of banner...
+      hash: 47b9dcfb8071d62a394dce07386e39886f920099
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: andrew
+      nested: []
+  version: 3.9.2
+  title: "'FIX docs links'"
+  date: 2022-06-14T14:43:08.677Z
+- commits:
+    - subject: Removing meetup banner now that event has ended.
+      hash: e949ae9c72bd22b3bb9a3e0b734d8edb850dd9bd
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: andrew
+      nested: []
+  version: 3.9.1
+  title: "'Removing meetup banner now that event has ended.'"
+  date: 2022-04-28T22:12:02.954Z
+- commits:
     - subject: Use balenaHub proxy registry for blocks
       hash: 2325cc6f0f062c6beaf4743d5b67fbd78c5698eb
       body: ""
@@ -478,8 +554,8 @@
     - subject: Use SOUND_SUPERVISOR_PORT in container start scripts
       hash: 3d267ca69f01dd11b19f621a08f96e71b88a1a17
       body: >
-        This patch make container start scripts consider the environment
-        variable SOUND_SUPERVISOR_PORT.
+        This patch make container start scripts consider the environment variable
+        SOUND_SUPERVISOR_PORT.
 
         Otherwise the services adress requests to wrong default port, if sound supervisor web port is changed by above configuration variable.
 
@@ -1192,8 +1268,7 @@
     - subject: Adding clarification between config vars and env vars for users
       hash: 94f129c48a4178a4d4246c990488fa56c7d6d8e7
       body: >
-        Clarifying and citing resources for env var usage in balenaSound so
-        users
+        Clarifying and citing resources for env var usage in balenaSound so users
 
         don't try to add env vars to config vars.
       footer:
@@ -2139,8 +2214,8 @@
       author: Tim
       subject: Update for Multi Container use
       body: >-
-        Suggestion additional info for people who might want to combine this in
-        an app with other playground apps.
+        Suggestion additional info for people who might want to combine this in an
+        app with other playground apps.
 
         Labels is something that's not always clear for beginners.
     - hash: eefcca025309f2b53651b57fb76fb41a0a2221ed
